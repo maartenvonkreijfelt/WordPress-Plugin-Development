@@ -1,3 +1,4 @@
+<?php
 /*
 Plugin Name:  My Plugin
 Description:  Demo plugin belonging to tutorial Plugin development part 4
