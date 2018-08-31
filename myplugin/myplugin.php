@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name:  Pre Brandit
-Description:  Example plugin for the video tutorial series, "WordPress: Plugin Development", available at Lynda.com.
-Plugin URI:   https://www.preludio.nl/plugins/prebrandit
+Plugin Name:  My Plugin
+Description:  Demo Plugin for tutorial Plugin Development Part4
+Plugin URI:
 Author:       Maarten von Kreijfelt
 Version:      1.0
 Text Domain:  prebrandit
