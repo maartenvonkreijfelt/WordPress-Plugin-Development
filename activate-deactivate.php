@@ -39,6 +39,7 @@ register_deactivation_hook( __FILE__, 'myplugin_on_deactivation' );
 
 
 // do stuff on uninstall
+//We don't use this. Instaed we use an uninstal.php file.
 function myplugin_on_uninstall() {
 
 	if ( ! current_user_can( 'activate_plugins' ) ) return;
@@ -47,7 +48,8 @@ function myplugin_on_uninstall() {
 	delete_option( 'myplugin_show_welcome_page', true );
 
 }
-register_uninstall_hook( __FILE__, 'myplugin_on_uninstall' );
+//We don't use this. Instaed we use an uninstal.php file.
+//register_uninstall_hook( __FILE__, 'myplugin_on_uninstall' );
 
 
 
